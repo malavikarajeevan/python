@@ -20,6 +20,9 @@
 # print(s.endswith("grapes"))
 # print(s.find("orange"))
 
-ls=["apple","orange","mango"]
-s="/".join(ls)
-print(s)
+# ls=["apple","orange","mango"]
+# s="/".join(ls)
+# print(s)ls=["apple","orange","mango"]
+# s="/".join(ls)
+# print(s)
+

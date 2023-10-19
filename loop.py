@@ -106,13 +106,7 @@
 #         i,j=j,i+j
 
 
-m=input("enter m:")
-n=input("enter n:")
-for i in range(1,"rows" +1):
-        for j in range(1,"rows"+1):
-                
-                
-                
+
         
 
                 
