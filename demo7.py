@@ -100,3 +100,29 @@
 # largest=max(a,b,c)
 # print("largest is",largest)
 
+# a=int(input("enter a"))
+# if a<=12:
+#     print("pay 5")
+# elif a>=13 and a<=64:
+#     print("pay 10")
+# elif a>=65:
+#     print("pay 7")
+# else:
+#     print("error")
+
+# hight=int(input("enter the hight"))
+# weight=int(input("enter the weight"))
+# bmi=weight/hight/100**2
+# print(bmi)
+
+# if bmi<1.8:
+#     print("underweight")
+# elif bmi>=18.5 and bmi<=24.9:
+#     print("normal weight")
+# elif bmi<=29.9:
+#     print("overweight")
+# elif bmi>=30:
+#     print("obese")
+# else:
+#     print("error")
+    

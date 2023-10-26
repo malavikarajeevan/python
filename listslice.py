@@ -1,7 +1,7 @@
 # ls=[10,20,30,40,50,60]#list slice
 # print(ls[1:6:2])
 
-#list combromising
+#list combrohencive
 # ls1=[10,20,30,10,20,1,3]
 # ls2=[i**2 for i in ls1]
 # print(ls2)
