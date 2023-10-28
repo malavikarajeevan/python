@@ -106,8 +106,60 @@
 #         i,j=j,i+j
 
 
+# for i in range(0,4):
+#     for j in range(0,4-i-1):
+#         print(" ",end="")
+#     for j in range(0,i+1):
+#         print("* ",end="")
+#     print("\n")
 
-        
+"""q6"""
+# for i in range(0,3):
+#     for j in range(0,3-i-1):
+#         print(" ",end="")
+#     for j in range(0,i+1):
+#         print("* ",end="")
+#     print("\n")
+# for i in range(0,3-1):
+#     for j in range(0,i+1):
+#         print("",end="")
+#     for j in range(0,3-i-1):
+#         print("* ",end="")
+#     print("\n")
+
+""""q9"""
+# a=int(input("enter the number"))
+# sum=0
+# while a!=0:
+#     sum=a%10
+    
+#     print(sum)
+
+
+
+""""q10"""
+# my_list=[1,5,6,9,18,43]
+# for index in range(len(my_list)):
+#     value=my_list[index]
+#     print(index,value)
+"""floyid triangle"""
+# a=1
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         print(a,end=" ")
+#         a=a+1
+#     print()
+
+""""q5 two dimentional array"""
+
+# row_num=int(input("enter number of rows:"))
+# col_num=int(input("enter number of colums:"))
+# multi_list=[[0 for col in range(col_num)]for row in range(row_num)]
+
+# for row in range(row_num):
+#     for col in range(col_num):
+#         multi_list[row][col]=row*col
+#     print(multi_list)      
 
                 
         

@@ -28,6 +28,49 @@
 # mul(n)
 
 
+"""area of circle"""
+# def area(r):
+#     area=3.14*r**2
+#     return area
+# r=float(input("enter the radious:"))
+# print(area(r))
+
+
+"""odd or evern"""
+# n=int(input("enter a number:"))
+# def even(n):
+#     return n%2
+# t=even(n)
+# if t==0:
+#     print("true")
+# else:
+#     print("false")
+
+
+"""q5 calulate discount"""
+# def dis(a,b):
+#     return(a/b)*100
+# c=int(input("enter the amount:"))
+# d=int(input("enter the discount:"))
+# x=dis(c,d)
+# print("the amount is:",c-x)  
+
+""""q6reverse string"""
+# def bbb(string):
+#     x=len(string)
+#     y=""
+#     for i in range(x-1,-1,-1):
+#         y=y+string[i]
+#         return y
+# print(bbb("malavik"))  
+
+
+""""compute power"""
+# def computepower(a,b):
+#     return a**b
+# x=computepower(5,2)
+# print(x)
+
         
     
     

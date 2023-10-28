@@ -110,19 +110,24 @@
 # else:
 #     print("error")
 
+
+
+""""bmi"""
 # hight=int(input("enter the hight"))
 # weight=int(input("enter the weight"))
-# bmi=weight/hight/100**2
-# print(bmi)
+# b=hight/100
+# c=weight/b
 
-# if bmi<1.8:
-#     print("underweight")
-# elif bmi>=18.5 and bmi<=24.9:
-#     print("normal weight")
-# elif bmi<=29.9:
-#     print("overweight")
-# elif bmi>=30:
+# print("bmi is",c)
+
+# if c<18.5:
+#     print("under weight")
+# elif c>=29.9:
 #     print("obese")
+# elif c<=24.9:
+#     print("over weight")
+# elif c<=18.5:
+#     print("normal weight")
 # else:
 #     print("error")
     
