@@ -183,22 +183,22 @@
 # print(x)
 # print(len(x))
 """"email&password"""
-import re
-terms="^[A-Z]\w{3,}\W\w{2,}$"
-a=input("enter the password:")
-x=re.search(terms,a)
-if x:
-    print("password validate")
-else:
-    print("password is not validate")
-import re
+# import re
+# terms="^[A-Z]\w{3,}\W\w{2,}$"
+# a=input("enter the password:")
+# x=re.search(terms,a)
+# if x:
+#     print("password validate")
+# else:
+#     print("password is not validate")
+# import re
 
-terms="^[A-Za-z].+@[A-Za-z]{2,}\.[A-Za-z]{1,}&"
-b=input("enter the email:")
-x=re.search(terms,b)
-if x:
-    print("email is validate")
-else:
-    print("email is not validate")
+# terms="^[A-Za-z].+@[A-Za-z]{2,}\.[A-Za-z]{1,}&"
+# b=input("enter the email:")
+# x=re.search(terms,b)
+# if x:
+#     print("email is validate")
+# else:
+#     print("email is not validate")
 
 
