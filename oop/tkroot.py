@@ -223,32 +223,52 @@
 
 
 """bmicalculator"""
-from tkinter import *
-def bmi():
-    num1=float(e1.get())
-    num2=float(e2.get())
+# from tkinter import *
+# app=Tk()
+
     
     
 
-app= Tk()
-app.title("bmi calculator")
-l1=Label(app,text="enter the age")
-l1.pack()
-e1=Entry()
-e1.pack()
-l2=Label(app,text="enter the hight")
-e2=Entry()
-e2.pack()
-l3=Label(app,text="enter the weight")
-l3.pack()
-e3=Entry()
-e3.pack()
+# app= Tk()
+# app.title("bmi calculator")
+# def bmi():
+#     n1=float(e1.get())
+#     n2=float(e2.get())
+#     n3=n2/100
+#     res.set(r)
+#     if r<18.5:
+#         bmi.set("under weight")
+#     elif r<24:
+#         bmi.set("normal weight")
+#     else:
+#         bmi.set("obesity")
+# l1=Label(app,text="weight in kg")
 
+# e1=Entry()
 
+# l2=Label(app,text="hight in cm")
+# e2=Entry()
+# btn=Button(app,text="calculate",command=bmi)
+# res=StringVar()
+# res.set("")
+# bmi=StringVar()
+# bmi.set("")
+# l3=Label(app,text="result")
 
+# e3=Entry(app,textvariable=res)
+# l4=Label(app,text="bmi catogories")
+# e4=Entry(app,textvariable=bmi)
+# l1.grid(row=0,column=0)
+# e1.grid(row=0,column=1)
+# l2.grid(row=1,column=0)
+# e2.grid(row=1,column=1)
 
+# l3.grid(row=2,column=1)
+# e3.grid(row=3,column=0)
 
-
+# l4.grid(row=0,column=0)
+# e4.grid(row=0,column=1)
+# app.minloop()
 
         
         
