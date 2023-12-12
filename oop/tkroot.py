@@ -269,6 +269,10 @@
 # l4.grid(row=0,column=0)
 # e4.grid(row=0,column=1)
 # app.minloop()
+"""calculator"""
+from tkinter import *
+root=Tk
+
 
         
         
